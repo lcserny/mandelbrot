@@ -188,7 +188,7 @@ fn write_image(
         &pixels,
         bounds.0 as u32,
         bounds.1 as u32,
-        ColorType::Gray(0),
+        ColorType::Gray(8),
     )?;
     Ok(())
 }
